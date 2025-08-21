@@ -1,0 +1,51 @@
+<!--5. Imagem com legenda
+Insira uma imagem qualquer usando <img>.
+Abaixo, coloque uma legenda descritiva usando <figcaption>.
+Defina largura fixa para a imagem e aplique bordas arredondadas.  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EXERCICIO5</title>
+    <style>
+        body{
+            margin: 0   ;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+              height: 100vh;
+        }
+        .container{
+             width: 500px;
+            height: 500px;
+            background-color: rgb(111, 65, 155) ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10%;
+        }
+        p{
+            text-align: center;
+            margin: auto;
+        }
+      img{
+            width: 300px;
+            padding: 0%;
+            margin: 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px ;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        
+        <figcaption> <img src="mewtwo.jpeg" alt="">   <p>Mewtwo é um Pokémon lendário do tipo Psíquico, criado a partir de Mew, e conhecido por sua força e inteligência excepcionais. Ele é frequentemente retratado como um ser questionador, buscando propósito e sentido na vida após sua criação artificial. </p> </figcaption>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!-- 3. Layout com Grid
+Crie um layout com display: grid de 3 colunas e 4 linhas.
+Preencha cada célula com um texto diferente.
+Desafio extra: altere o tamanho da primeira coluna para 300px e deixe as demais automáticas -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3,300px);
+            grid-template-rows: repeat(4,auto);
+            column-gap: 3%;
+            text-align: center;
+            justify-content: center;
+        
+        }
+        .grid > div{
+            background-color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div><p>Coluna---1</p>
+        <div><p>line---1</p></div>
+        <div><p>line---2</p></div>
+        <div><p>line---3</p></div>
+        <div><p>line---4</p></div>
+    </div>
+        <div><p>Coluna---2</p>
+        <div><p>line---1</p></div>
+        <div><p>line---2</p></div>
+        <div><p>line---3</p></div>
+        <div><p>line---4</p></div>
+    </div>
+        
+        <div><p>Coluna---3</p>
+        <div><p>line---1</p></div>
+        <div><p>line---2</p></div>
+        <div><p>line---3</p></div>
+        <div><p>line---4</p></div>
+        </div>
+    </div>
+</body>
+</html>

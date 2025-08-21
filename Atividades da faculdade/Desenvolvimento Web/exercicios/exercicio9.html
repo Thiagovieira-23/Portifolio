@@ -1,0 +1,41 @@
+<!-- 9. Media Queries
+Crie uma página com texto e título.
+Use @media queries para:
+- Alterar a cor de fundo quando a tela for menor que 600px.
+- Aumentar a fonte do texto em telas pequenas.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        @media(min-width:600px) {
+            body {
+                background-color: rgb(199, 70, 70);
+                
+            }
+        }
+
+        @media(max-width:599px) {
+            body {
+                background-color: rgb(246, 245, 248);
+            }
+            .container{
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus laoreet metus vitae commodo. Duis facilisis quam quis est viverra, ut varius quam hendrerit. Quisque accumsan porttitor varius. Integer cursus, dolor id semper suscipit, magna sapien tempus ipsum, lobortis vestibulum felis ligula sit amet sem. Nulla iaculis ligula sit amet magna vehicula hendrerit. Duis fringilla nunc sed pharetra congue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris tincidunt leo at erat elementum, quis malesuada leo blandit. Donec posuere mi ut vehicula pulvinar. Ut euismod sollicitudin porta.</p>
+
+    </div>
+
+</body>
+
+</html>

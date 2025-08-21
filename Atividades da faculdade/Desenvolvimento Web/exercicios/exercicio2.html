@@ -1,0 +1,40 @@
+<!-- 2. Layout com Flexbox
+Crie um contêiner usando display: flex.
+Adicione 8 caixas numeradas, cada uma com 100px de largura.
+Faça com que elas se organizem automaticamente em várias linhas quando a tela for redimensionada. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio2</title>
+    <style>
+        body{
+            background-color: silver;
+            display: flex;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container>div{
+            margin: 10px;
+            width: 100px;
+            background-color: cornflowerblue;
+            color: rgb(12, 11, 11);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>Container ->1 </div>
+        <div>Container ->2 </div>
+        <div>Container ->3 </div>
+        <div>Container ->4 </div>
+        <div>Container ->5 </div>
+        <div>Container ->6 </div>
+        <div>Container ->7 </div>
+        <div>Container ->8 </div>
+
+    </div>
+</body>
+</html>

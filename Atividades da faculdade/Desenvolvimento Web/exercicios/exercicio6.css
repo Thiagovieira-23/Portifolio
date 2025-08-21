@@ -1,0 +1,25 @@
+body{
+    margin: 0   ;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        height: 100vh;
+}
+.container{
+             width: 900px;
+            height: 900px;
+            background-color: rgb(212, 248, 8) ;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            border-radius: 10%;
+            font-size: 30px;
+            padding: 5px;
+        }
+.container> p{
+    margin: 10px;
+    text-align: justify;
+}
